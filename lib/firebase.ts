@@ -17,21 +17,4 @@ const app = initializeApp(firebaseConfig)
 export const db = getFirestore(app)
 
 // StopDesk data type
-export interface StopDeskData {
-  uid: string
-  address: string
-  phoneNumbers: string[]
-  googleMapsLink: string
-  city?: string
-  postalCode?: string
-  country?: string
-  hours?: {
-    monday?: string
-    tuesday?: string
-    wednesday?: string
-    thursday?: string
-    friday?: string
-    saturday?: string
-    sunday?: string
-  }
-}
+
